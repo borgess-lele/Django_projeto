@@ -1,1 +1,1 @@
-from .categoria import TrufaViewSet
+from .trufa import TrufaViewSet
