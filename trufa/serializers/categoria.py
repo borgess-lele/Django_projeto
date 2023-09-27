@@ -21,3 +21,7 @@ class TrufaDetailSerializer(ModelSerializer):
         capa = ImageSerializer(required=False)
 
 
+class TrufaListSerializer(ModelSerializer):
+    class Meta:
+        model = Trufa
+        fields = ["id", "titulo", "preco"]

@@ -1,1 +1,1 @@
-from .categoria import TrufaSerializer
+from .categoria import TrufaSerializer, TrufaListSerializer, TrufaDetailSerializer

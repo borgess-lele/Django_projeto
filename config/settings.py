@@ -42,8 +42,21 @@ INSTALLED_APPS = [
     'rest_framework',
     'usuario',
     'uploader',
+    'drf_spectacular',
+    'django_extensions',
     'trufa',
 ]
+
+REST_FRAMEWORK = {
+
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Trufas API",
+    "DESCRIPTION": "API para gerenciamento de Trufas, incluindo endpoints e documentação.",
+    "VERSION": "1.0.0",
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
