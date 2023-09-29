@@ -2,7 +2,6 @@ from rest_framework.serializers import ModelSerializer,SlugRelatedField
 from uploader.models import Image
 from uploader.serializers import ImageSerializer
 from trufa.models import Trufa
-from .categoria import CategoriaSerializer
 
 class TrufaSerializer(ModelSerializer):
     class Meta:
@@ -19,10 +18,14 @@ class TrufaSerializer(ModelSerializer):
         capa = ImageSerializer(required=False, read_only=True)
 
 class TrufaDetailSerializer(ModelSerializer):
-        capa = ImageSerializer(required=False)
+    capa = ImageSerializer(required=False)
 
-
-class TrufaListSerializer(ModelSerializer):
     class Meta:
         model = Trufa
-        fields = ["id", "titulo", "preco"]
+        fields = "__all__"
+
+class TrufaListSerializer(ModelSerializer):
+    imagem = ImageSerializer(required=False)
+    class Meta:
+        model = Trufa
+        fields = ["id", "nome", "preco", "imagem",]

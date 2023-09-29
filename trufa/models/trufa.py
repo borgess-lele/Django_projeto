@@ -1,7 +1,6 @@
 from uploader.models import Image
 from django.db import models
 
-from .categoria import Categoria
 
 class Trufa(models.Model):
     nome = models.CharField(max_length=100)
@@ -16,7 +15,8 @@ class Trufa(models.Model):
         blank=True,
         default=None,
     )
-    categoria = models.ForeignKey(Categoria, related_name="trufas", on_delete=models.PROTECT, null=True, default=None)
+    sem_lactose = models.BooleanField(default=False)
+    ao_leite = models.BooleanField(default=False)
 
     def __str__(self):
         return self.descricao
