@@ -15,7 +15,6 @@ class Trufa(models.Model):
         blank=True,
         default=None,
     )
-    sem_lactose = models.BooleanField(default=False)
 
     def __str__(self):
         return self.descricao
