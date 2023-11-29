@@ -142,13 +142,15 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     MEDIA_URL = '/media/' 
 else:    
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    MEDIA_URL = f"http://{MY_IP}:19003/media/"
+    # MEDIA_URL = f"http://{MY_IP}:19003/media/"
+    MEDIA_URL = f"http://127.0.0.1:8000/media/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOW_ALL_ORIGINS = True
 AUTH_USER_MODEL = "usuario.Usuario"
 
-MEDIA_URL = "http://191.52.55.56:19003/media/"
+# MEDIA_URL = "http://191.52.55.56:19003/media/"
+MEDIA_URL = f"http://127.0.0.1:8000/media/"
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
@@ -157,7 +159,8 @@ if MODE in ["PRODUCTION", "MIGRATE"]:
     MEDIA_URL = "/media/"
 else:
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    MEDIA_URL = f"http://{MY_IP}:19003/media/"
+    # MEDIA_URL = f"http://{MY_IP}:19003/media/"
+    MEDIA_URL = f"http://127.0.0.1:8000/media/"
 
 if MODE == "PRODUCTION":
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
