@@ -1,0 +1,1128 @@
+
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-02T17:16:07.723Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(Trufa - 080aa700-cc64-4ff3-90a7-8702e07d09c5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-02T17:16:27.591Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Trufa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-02T17:22:59.292Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "(Trufa de Maracujá - 39c7bd48-0d51-4865-b5c4-6baf855e865c)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-02T17:23:04.487Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(Trufa - 080aa700-cc64-4ff3-90a7-8702e07d09c5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-02T17:23:15.964Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "(Trufa de Limão - dffef7b7-d3b2-4ede-9522-64f4c2825b81)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-02T17:23:25.377Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "(Trufa de Uva - 0dfb9b9d-553a-4129-8af0-5c072d60ff53)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-02T17:23:37.627Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "(Trufa de Uva - 5bcc5bb1-d060-4ce3-bae3-a7f3d1b6d802)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-02T17:23:51.164Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "(Trufa de Brigadeiro - a891559f-6836-4356-a1d7-96d4ddeb130e)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-02T17:24:07.185Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "(Trufa de Prestígio - 4fb0ed94-0463-4c03-9cc1-8a75991aa339)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-02T17:24:17.451Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "(Trufa de Nutella - 411ffc3e-dcd7-4586-a70b-15b5effed5fe)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-02T17:24:26.316Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "(Trufa de Pçoca - eca9a8d7-88f0-4fb8-b94e-9871801bfcd6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-02T17:25:03.561Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Maracujá Sem Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-02T17:25:25.303Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Maracujá Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\", \"Quantidade\", \"Imagem\", \"Sem lactose\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-02T17:25:57.429Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Limão Sem Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-02T17:26:20.589Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Uva Sem Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-02T17:26:52.517Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Morngo Sem Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-02T17:27:12.459Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "(Trufa de Morngo - 5bcc5bb1-d060-4ce3-bae3-a7f3d1b6d802)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-10-02T17:27:31.082Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Trufa Com Chocolate Sem Lactose e Recheio de Morango Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-10-02T17:27:35.517Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Trufa Com Chocolate Sem Lactose e Recheio de Morango Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Sem lactose\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-10-02T17:28:10.253Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Brigadeiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-10-02T17:28:52.910Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Coco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-10-02T17:29:13.673Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Nutella",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-10-02T17:29:26.998Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Nutella",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\", \"Quantidade\", \"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-10-02T17:29:50.445Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Trufa Com Cholate Sem Lactose e Recheio de Paçoca",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-10-02T17:30:00.503Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "(Trufa de Paçoca - eca9a8d7-88f0-4fb8-b94e-9871801bfcd6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-10-02T17:30:08.235Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "(Trufa de Morango - 5bcc5bb1-d060-4ce3-bae3-a7f3d1b6d802)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-10-02T17:30:31.805Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Trufa Com Chocolate e Recheio de Paçoca",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-10-02T17:30:51.086Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Trufa Com Chocolate Sem e Recheio de Nutella",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-10-02T17:31:03.721Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Trufa Com Chocolate e Recheio de Nutella",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-10-02T17:31:19.934Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Trufa Com Chocolate e Recheio de Coco",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-10-02T17:32:14.613Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Trufa Com Chocolate e Recheio de Brigadeiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-10-02T17:32:24.488Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Trufa Com Chocolate Sem Lactose e Recheio de Uva Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-10-02T17:32:32.200Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Trufa Com Chocolate Sem Lactose e Recheio de Limão Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-10-02T17:32:39.977Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Trufa Com Chocolate Sem Lactose e Recheio de Maracujá Sem Leite",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-11-13T12:04:01.499Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "(Trufa de Paçoca - eca9a8d7-88f0-4fb8-b94e-9871801bfcd6)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-11-29T16:24:46.059Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Trufa Com Chocolate e Recheio de Paçoca",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-11-29T16:25:03.380Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "(Trufa de Paçoca - eca9a8d7-88f0-4fb8-b94e-9871801bfcd6)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 7,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 7,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 7,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 7,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 8,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 8,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 8,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 8,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add trufa",
+    "content_type": 9,
+    "codename": "add_trufa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change trufa",
+    "content_type": 9,
+    "codename": "change_trufa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete trufa",
+    "content_type": 9,
+    "codename": "delete_trufa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view trufa",
+    "content_type": 9,
+    "codename": "view_trufa"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "usuario",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "trufa",
+    "model": "trufa"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0vprbme3pletsghc6ni6egvm8p9gzux4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYmFJcuvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWWpx-t0jpwW0H-U7tNss0t3WZotwVedAur3Pm5-Vw_w4q9fqtwYAzulACCw6cNxaTRzcgZwWj96UQg46ACkddgAdLCLGQNYoUZhbvD7D-Nwg:1r8NMd:HFDPNTXr0wWXYEOCJ4xlDKOpXdqMMKbZ3It5EWKl55E",
+    "expire_date": "2023-12-13T16:24:39.776Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4bwiu7li6q4bk8nijgyu8fwy831wl8jw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYmFJcuvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWWpx-t0jpwW0H-U7tNss0t3WZotwVedAur3Pm5-Vw_w4q9fqtwYAzulACCw6cNxaTRzcgZwWj96UQg46ACkddgAdLCLGQNYoUZhbvD7D-Nwg:1qnMWC:ZNEveBqZxJYb-Fdbi9_GdK_rcJuILf1Omdn6VvkdNHU",
+    "expire_date": "2023-10-16T17:15:40.998Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ey0kzirxnhs05ak3xow6vu0waiccficw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYmFJcuvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWWpx-t0jpwW0H-U7tNss0t3WZotwVedAur3Pm5-Vw_w4q9fqtwYAzulACCw6cNxaTRzcgZwWj96UQg46ACkddgAdLCLGQNYoUZhbvD7D-Nwg:1r2UwP:uEaW4JObcPgWFHqx3qTfCGx7oyUl1N5oS_Z0WuR-beQ",
+    "expire_date": "2023-11-27T11:17:17.235Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "np8edir2ekbf56yaysggzf7fr9vx12ar",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYLAWX7nsGMgwzUjVtUtqV8e7apAvd_vfef6mE21rT1nhJY1EXBer0u2WkB087KHecbrOmeVqXMetd0QdtepgLP6-H-3dQsdVvLVYAqbdkoMuBXPAsGKPP5IEclswYRM7Wkcsd9w4siKDvTADD0Vr1_gAFaDhU:1rA7aU:vZdr035ZQsHh8oud243346o7Fj1PoGzAVtVChEiIHDk",
+    "expire_date": "2023-12-18T11:58:10.054Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$R4AfOfIzau4D9KbNlJPcaC$JFrnpHmRgGqjPxkharOr6WyJ8XdcKkZ1c52emulec8o=",
+    "last_login": "2023-11-29T16:24:39.772Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-02T17:15:32.146Z",
+    "email": "leticiaborgess.oficial@gmail.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "usuario.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$J2n9Ml4v586DPrLj1FqMUX$MxtQYazGHY9MBeWswwkzn/6r1eIpmEj4s2UDyASMQ4s=",
+    "last_login": "2023-12-04T11:58:09.995Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-12-04T11:09:54.029Z",
+    "email": "admin@gmail.com",
+    "cpf": null,
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "39c7bd48-0d51-4865-b5c4-6baf855e865c",
+    "public_id": "28c1c7fc-b9d8-4783-b87b-b323a8f4c22d",
+    "file": "images/28c1c7fc-b9d8-4783-b87b-b323a8f4c22d.jpg",
+    "description": "Trufa de Maracujá",
+    "uploaded_on": "2023-10-02T17:22:59.292Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "dffef7b7-d3b2-4ede-9522-64f4c2825b81",
+    "public_id": "3be1c54d-fe4a-4c3f-a8f8-3aa2ca2e92c2",
+    "file": "images/3be1c54d-fe4a-4c3f-a8f8-3aa2ca2e92c2.jpg",
+    "description": "Trufa de Limão",
+    "uploaded_on": "2023-10-02T17:23:15.963Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "0dfb9b9d-553a-4129-8af0-5c072d60ff53",
+    "public_id": "53a8e9ee-fb98-427b-9175-154d36e8e6a5",
+    "file": "images/53a8e9ee-fb98-427b-9175-154d36e8e6a5.jpg",
+    "description": "Trufa de Uva",
+    "uploaded_on": "2023-10-02T17:23:25.377Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "5bcc5bb1-d060-4ce3-bae3-a7f3d1b6d802",
+    "public_id": "9a1f61b2-8fc2-49a3-8495-0ad71a6e8f9c",
+    "file": "images/9a1f61b2-8fc2-49a3-8495-0ad71a6e8f9c",
+    "description": "Trufa de Morango",
+    "uploaded_on": "2023-10-02T17:23:37.626Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "a891559f-6836-4356-a1d7-96d4ddeb130e",
+    "public_id": "87fce6e1-ebbe-4f30-ac17-99ed34d52abf",
+    "file": "images/87fce6e1-ebbe-4f30-ac17-99ed34d52abf.jpg",
+    "description": "Trufa de Brigadeiro",
+    "uploaded_on": "2023-10-02T17:23:51.164Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "4fb0ed94-0463-4c03-9cc1-8a75991aa339",
+    "public_id": "558b5340-5751-41a0-8454-6371e14cfdb9",
+    "file": "images/558b5340-5751-41a0-8454-6371e14cfdb9.jpg",
+    "description": "Trufa de Prestígio",
+    "uploaded_on": "2023-10-02T17:24:07.184Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "411ffc3e-dcd7-4586-a70b-15b5effed5fe",
+    "public_id": "abb06a12-d57f-427e-a3b3-e5282b8cdc2c",
+    "file": "images/abb06a12-d57f-427e-a3b3-e5282b8cdc2c",
+    "description": "Trufa de Nutella",
+    "uploaded_on": "2023-10-02T17:24:17.451Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "eca9a8d7-88f0-4fb8-b94e-9871801bfcd6",
+    "public_id": "8a50a75b-3ce9-42d2-9b91-e1b7983d0aac",
+    "file": "images/8a50a75b-3ce9-42d2-9b91-e1b7983d0aac",
+    "description": "Trufa de Paçoca",
+    "uploaded_on": "2023-10-02T17:24:26.316Z"
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 2,
+  "fields": {
+    "nome": "Trufa de Maracujá",
+    "descricao": "Trufa Com Chocolate Sem Lactose e Recheio de Maracujá Sem Leite",
+    "preco": "4.50",
+    "quantidade": 6,
+    "imagem": 2
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 3,
+  "fields": {
+    "nome": "Trufa de Limão",
+    "descricao": "Trufa Com Chocolate Sem Lactose e Recheio de Limão Sem Leite",
+    "preco": "4.50",
+    "quantidade": 8,
+    "imagem": 3
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 4,
+  "fields": {
+    "nome": "Trufa de Uva",
+    "descricao": "Trufa Com Chocolate Sem Lactose e Recheio de Uva Sem Leite",
+    "preco": "4.00",
+    "quantidade": 11,
+    "imagem": 4
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 5,
+  "fields": {
+    "nome": "Trufa de Morango",
+    "descricao": "Trufa Com Chocolate Sem Lactose e Recheio de Morango Sem Leite",
+    "preco": "4.00",
+    "quantidade": 17,
+    "imagem": 5
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 6,
+  "fields": {
+    "nome": "Trufa de Brigadeiro",
+    "descricao": "Trufa Com Chocolate e Recheio de Brigadeiro",
+    "preco": "5.00",
+    "quantidade": 10,
+    "imagem": 6
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 7,
+  "fields": {
+    "nome": "Trufa de Prestígio",
+    "descricao": "Trufa Com Chocolate e Recheio de Coco",
+    "preco": "5.00",
+    "quantidade": 9,
+    "imagem": 7
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 8,
+  "fields": {
+    "nome": "Trufa de Nutella",
+    "descricao": "Trufa Com Chocolate e Recheio de Nutella",
+    "preco": "6.00",
+    "quantidade": 20,
+    "imagem": 8
+  }
+},
+{
+  "model": "trufa.trufa",
+  "pk": 9,
+  "fields": {
+    "nome": "Trufa de Paçoca",
+    "descricao": "Trufa Com Chocolate e Recheio de Paçoca",
+    "preco": "5.00",
+    "quantidade": 5,
+    "imagem": 9
+  }
+}
+]

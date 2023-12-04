@@ -34,8 +34,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'cloudinary_storage',
-    'cloudinary',
+    "cloudinary_storage",
+    "cloudinary",
     "corsheaders",
     "rest_framework",
     "usuario",
@@ -106,9 +106,6 @@ else:
         }
     }
 
-print(MODE, DATABASES)
-
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
@@ -125,43 +122,27 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 LANGUAGE_CODE = "pt-br"
-
 TIME_ZONE = "America/Sao_Paulo"
-
 USE_I18N = True
-
 USE_TZ = True
 
 STATIC_URL = "/static/"
-
-if MODE in ["PRODUCTION", "MIGRATE"]:
-    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
-    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-    STATIC_ROOT = os.path.join(BASE_DIR, "static")
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-    MEDIA_URL = '/media/' 
-else:    
-    MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    # MEDIA_URL = f"http://{MY_IP}:19003/media/"
-    MEDIA_URL = f"http://127.0.0.1:8000/media/"
-
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-CORS_ALLOW_ALL_ORIGINS = True
-AUTH_USER_MODEL = "usuario.Usuario"
-
-# MEDIA_URL = "http://191.52.55.56:19003/media/"
-MEDIA_URL = f"http://127.0.0.1:8000/media/"
 MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
 
 if MODE in ["PRODUCTION", "MIGRATE"]:
+    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
+    DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
+    STATIC_ROOT = os.path.join(BASE_DIR, "static")
+    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
     MEDIA_URL = "/media/"
 else:
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
-    # MEDIA_URL = f"http://{MY_IP}:19003/media/"
-    MEDIA_URL = f"http://127.0.0.1:8000/media/"
+    MEDIA_URL = f"http://{MY_IP}:19003/media/"
 
-if MODE == "PRODUCTION":
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+CORS_ALLOW_ALL_ORIGINS = True
+AUTH_USER_MODEL = "usuario.Usuario"
+
+print(MODE, MEDIA_URL, DATABASES)
