@@ -4,18 +4,18 @@ from uploader.serializers import ImageSerializer
 from trufa.models import Trufa
 
 class TrufaSerializer(ModelSerializer):
-    class Meta:
-        model = Trufa
-        fields = "__all__"
-
-        capa_attachment_key = SlugRelatedField(
-        source="capa",
+    capa_attachment_key = SlugRelatedField(
+        source="imagem",
         queryset=Image.objects.all(),
         slug_field="attachment_key",
         required=False,
         write_only=True,
     )
-        capa = ImageSerializer(required=False, read_only=True)
+    imagem = ImageSerializer(required=False, read_only=True)
+    class Meta:
+        model = Trufa
+        fields = "__all__"
+
 
 class TrufaDetailSerializer(ModelSerializer):
     capa = ImageSerializer(required=False)
